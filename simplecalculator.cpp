@@ -13,6 +13,9 @@ int divide(int a, int b);
  	cin>>num1>>num2;
  	cout<<" Choose operation(+, -,*,/):";
  	cin>>operation;
- 	
+     switch (operation) {
+
+        cout<<"invalid operation";
+     }
  	return 0;
  }
