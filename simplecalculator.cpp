@@ -17,6 +17,9 @@ int divide(int a, int b);
 		case '+': 
 		cout << "Result: " << add(num1, num2) << endl; 
 		break; 
+		case '-': 
+		cout << "Result: " << subtract(num1, num2) << endl; 
+		break;
         cout<<"invalid operation";
      }
  	return 0;
@@ -24,3 +27,6 @@ int divide(int a, int b);
  int add(int a, int b) { 
     return a + b; 
 } 
+int subtract(int a, int b) { 
+    return a - b; 
+}
