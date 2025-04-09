@@ -14,8 +14,13 @@ int divide(int a, int b);
  	cout<<" Choose operation(+, -,*,/):";
  	cin>>operation;
      switch (operation) {
-
+		case '+': 
+		cout << "Result: " << add(num1, num2) << endl; 
+		break; 
         cout<<"invalid operation";
      }
  	return 0;
  }
+ int add(int a, int b) { 
+    return a + b; 
+} 
